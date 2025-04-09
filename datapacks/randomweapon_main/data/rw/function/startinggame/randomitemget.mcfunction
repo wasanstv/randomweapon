@@ -10,7 +10,7 @@
 scoreboard players set rand randomFactor 0
 
 # 랜덤 굴리기 (현재 직업 개수 20개, 직업 개수가 늘어날 때 마다 이를 수정해주어야 함.)
-execute store result score rand randomFactor run random value 1..20
+execute store result score rand randomFactor run random value 1..19
 
 # alreadyFactor에 이미 존재하던 난수가 있다면 이 함수 다시 실행, 없다면 alreadyFactor에 저장 후 아래 명령어 실행
 execute as @a if score rand randomFactor = @s alreadyFactor as @a[tag=selected1] run return run function rw:startinggame/randomitemget
