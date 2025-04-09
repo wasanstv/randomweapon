@@ -1,0 +1,5 @@
+# 인디케이터(데스매치)
+bossbar set rw:timer color red
+execute store result bossbar rw:timer value run scoreboard players get timer timerIndicator
+execute if score timer timerSec matches 10.. run bossbar set rw:timer name [{"text":"남은 플레이어 수: ","color":"white"},{"score":{"objective": "playerCount","name":"ingamecount"},"color":"green","bold":true},{"text":"명 / ","color":"white","bold":false},{"text":"데스매치: ","color":"red"},{"score": {"name": "timer","objective": "timerMin"},"color":"yellow","bold":true},{"text":":","color":"white","bold":false},{"score": {"name": "timer","objective": "timerSec"},"color":"yellow","bold":true}]
+execute if score timer timerSec matches 0..9 run bossbar set rw:timer name [{"text":"남은 플레이어 수: ","color":"white"},{"score":{"objective": "playerCount","name":"ingamecount"},"color":"green","bold":true},{"text":"명 / ","color":"white","bold":false},{"text":"데스매치: ","color":"red"},{"score": {"name": "timer","objective": "timerMin"},"color":"yellow","bold":true},{"text":":","color":"white","bold":false},{"text":"0","color":"yellow","bold":true},{"score": {"name": "timer","objective": "timerSec"},"color":"yellow","bold":true}]
