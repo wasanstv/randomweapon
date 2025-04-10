@@ -10,3 +10,5 @@ tellraw @s {"text":"------------------","color":"#0a7a00"}
 
 give @s wooden_sword
 item replace entity @s armor.chest with leather_chestplate
+
+return 0

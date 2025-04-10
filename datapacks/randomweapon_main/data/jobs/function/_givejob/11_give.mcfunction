@@ -13,3 +13,5 @@ give @s potion[potion_contents={potion:"minecraft:swiftness"}] 2
 give @s splash_potion[potion_contents={potion:"minecraft:slowness"}] 2
 give @s splash_potion[potion_contents={potion:"minecraft:harming"}] 1
 give @s splash_potion[potion_contents={custom_color:2829099,custom_effects:[{id:"minecraft:weakness",amplifier:0,duration:200}]},custom_name={italic:false,text:"투척용 나약함의 물약"}] 1
+
+return 0

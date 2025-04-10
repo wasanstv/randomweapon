@@ -15,3 +15,5 @@ give @s carrot_on_a_stick[custom_name={color:"#a36e56",italic:false,text:"늑대
 give @s carrot_on_a_stick[custom_name={color:"dark_gray",italic:false,text:"늑대 케이지"},item_model="spawner",lore=[[{bold:true,color:"yellow",italic:false,keybind:"key.use"},{bold:false,color:"white",text:"을(를) 사용하여 "},{color:"dark_gray",text:"늑대 한 마리"},{bold:false,color:"white",text:"를 풀 수 있습니다."}],{color:"white",italic:false,text:"늑대 한 마리는 당신에게 길들여진 상태로 등장하며,"},{color:"white",italic:false,text:"늑대 갑옷을 쓰고 있습니다."},[""],{text:"사용 시 소모됩니다.",color:"red",italic:false}],custom_data={specialNo:1}] 1
 
 #give @s cooked_beef[custom_name='{"italic":false,"text":"시저 쇠고기 무방부제 저칼로리"}']
+
+return 0

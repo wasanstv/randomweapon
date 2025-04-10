@@ -11,3 +11,5 @@ tellraw @s {"text":"------------------","color":"#0a7a00"}
 # 참고: 이 직업은 alreadyFactor 가 10 인 플레이어.
 
 #give @s carrot_on_a_stick[item_model="goat_horn",custom_data={specialNo:13},custom_name='{"text":"종말의 뿔피리","color":"#740000","italic": false}',lore=['[{"bold":true,"color":"yellow","italic":false,"keybind":"key.use"},{"bold":false,"color":"dark_red","text":"키로 자신을 제외한 모두에게 종말을 일으킵니다."}]','[""]','{"text":"사용 시 소모됩니다.","color":"red","italic": false}']] 2
+
+return 0

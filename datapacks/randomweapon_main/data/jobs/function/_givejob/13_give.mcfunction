@@ -9,3 +9,5 @@ tellraw @s {"text":"------------------","color":"#0a7a00"}
 
 
 give @s wooden_axe[max_damage=10,custom_name={italic:false,text:"테무에서 산 나무 도끼"}] 1
+
+return 0
