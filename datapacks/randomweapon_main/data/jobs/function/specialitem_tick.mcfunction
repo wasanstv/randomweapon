@@ -47,6 +47,6 @@ execute if score 8tick specialTick matches 1.. run function jobs:8camera/8_shutt
 #1 X
 #2
 execute as @a[tag=itemUsed2Using] run function jobs:2shulker/2_using
-execute as @a[nbt={OnGround:0b},tag=!itemUsed2Using] store result score @s 2_fallenBlocksB run data get entity @s FallDistance 1
+execute as @a[nbt={OnGround:0b},tag=!itemUsed2Using] store result score @s 2_fallenBlocksB run data get entity @s fall_distance 1
 execute as @a[nbt={OnGround:1b},tag=!itemUsed2Using] run scoreboard players set @s 2_fallenBlocksB 0
 #3 X
