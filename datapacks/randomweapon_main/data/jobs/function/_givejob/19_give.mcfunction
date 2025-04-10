@@ -9,3 +9,5 @@ tellraw @s {text:"------------------",color:"#0a7a00"}
 
 give @s bow 1
 give @s arrow 6
+
+return 0

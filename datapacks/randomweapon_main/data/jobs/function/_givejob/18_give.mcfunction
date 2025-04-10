@@ -8,3 +8,5 @@ tellraw @s [{text:"킬 특전: ",color:"red"},{text:"귀족의 목검 x1",color:
 tellraw @s {text:"------------------",color:"#0a7a00"}
 
 give @s totem_of_undying 1
+
+return 0

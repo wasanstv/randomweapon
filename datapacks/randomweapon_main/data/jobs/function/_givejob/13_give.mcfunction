@@ -8,4 +8,10 @@ tellraw @s [{text:"킬 특전: ",color:"red"},{text:"테무에서 재구입한 �
 tellraw @s {text:"------------------",color:"#0a7a00"}
 
 
+<<<<<<< HEAD
 give @s wooden_axe[max_damage=10,custom_name={italic:false,text:"테무에서 산 나무 도끼"}] 1
+=======
+give @s wooden_axe[max_damage=10,custom_name={italic:false,text:"테무에서 산 나무 도끼"}] 1
+
+return 0
+>>>>>>> eb2bda9339926d6c7d6fb4088760d184ac28cc57
