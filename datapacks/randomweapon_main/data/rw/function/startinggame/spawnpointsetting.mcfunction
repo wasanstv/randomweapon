@@ -66,8 +66,29 @@ execute positioned 184 -47 -611 if score map mapNo matches 1 run summon area_eff
 execute positioned 180 -43 -618 if score map mapNo matches 1 run summon area_effect_cloud ~ ~ ~ {Duration:5000,Tags:["spawnpointPos"]}
 
 
-
-
 #2
 
 #3
+
+#4
+execute positioned -521 -30 -558 if score map mapNo matches 4 run summon area_effect_cloud ~ ~ ~ {Duration:5000,Tags:["spectatorPos"]}
+execute positioned -538 -26 -560 if score map mapNo matches 4 run summon area_effect_cloud ~ ~ ~ {Duration:5000,Tags:["spawnpointPos"]}
+execute positioned -535 -28 -575 if score map mapNo matches 4 run summon area_effect_cloud ~ ~ ~ {Duration:5000,Tags:["spawnpointPos"]}
+execute positioned -521 -28 -577 if score map mapNo matches 4 run summon area_effect_cloud ~ ~ ~ {Duration:5000,Tags:["spawnpointPos"]}
+execute positioned -507 -28 -574 if score map mapNo matches 4 run summon area_effect_cloud ~ ~ ~ {Duration:5000,Tags:["spawnpointPos"]}
+execute positioned -505 -27 -559 if score map mapNo matches 4 run summon area_effect_cloud ~ ~ ~ {Duration:5000,Tags:["spawnpointPos"]}
+execute positioned -507 -28 -545 if score map mapNo matches 4 run summon area_effect_cloud ~ ~ ~ {Duration:5000,Tags:["spawnpointPos"]}
+execute positioned -522 -28 -542 if score map mapNo matches 4 run summon area_effect_cloud ~ ~ ~ {Duration:5000,Tags:["spawnpointPos"]}
+execute positioned -536 -28 -545 if score map mapNo matches 4 run summon area_effect_cloud ~ ~ ~ {Duration:5000,Tags:["spawnpointPos"]}
+execute positioned -523 -30 -560 if score map mapNo matches 4 run summon area_effect_cloud ~ ~ ~ {Duration:5000,Tags:["spawnpointPos"]}
+execute positioned -522 -41 -542 if score map mapNo matches 4 run summon area_effect_cloud ~ ~ ~ {Duration:5000,Tags:["spawnpointPos"]}
+execute positioned -538 -41 -560 if score map mapNo matches 4 run summon area_effect_cloud ~ ~ ~ {Duration:5000,Tags:["spawnpointPos"]}
+execute positioned -521 -41 -577 if score map mapNo matches 4 run summon area_effect_cloud ~ ~ ~ {Duration:5000,Tags:["spawnpointPos"]}
+execute positioned -504 -41 -559 if score map mapNo matches 4 run summon area_effect_cloud ~ ~ ~ {Duration:5000,Tags:["spawnpointPos"]}
+execute positioned -509 -35 -559 if score map mapNo matches 4 run summon area_effect_cloud ~ ~ ~ {Duration:5000,Tags:["spawnpointPos"]}
+execute positioned -522 -35 -542 if score map mapNo matches 4 run summon area_effect_cloud ~ ~ ~ {Duration:5000,Tags:["spawnpointPos"]}
+execute positioned -534 -35 -560 if score map mapNo matches 4 run summon area_effect_cloud ~ ~ ~ {Duration:5000,Tags:["spawnpointPos"]}
+execute positioned -521 -35 -573 if score map mapNo matches 4 run summon area_effect_cloud ~ ~ ~ {Duration:5000,Tags:["spawnpointPos"]}
+execute positioned -519 -35 -557 if score map mapNo matches 4 run summon area_effect_cloud ~ ~ ~ {Duration:5000,Tags:["spawnpointPos"]}
+execute positioned -524 -35 -562 if score map mapNo matches 4 run summon area_effect_cloud ~ ~ ~ {Duration:5000,Tags:["spawnpointPos"]}
+

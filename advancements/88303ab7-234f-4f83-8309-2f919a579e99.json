@@ -17,17 +17,17 @@
     },
     "done": true
   },
-  "minecraft:husbandry/bred_all_animals": {
-    "criteria": {
-      "minecraft:wolf": "2024-12-09 20:05:01 +0900"
-    },
-    "done": false
-  },
   "minecraft:husbandry/breed_an_animal": {
     "criteria": {
       "bred": "2024-12-09 20:05:01 +0900"
     },
     "done": true
+  },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:wolf": "2024-12-09 20:05:01 +0900"
+    },
+    "done": false
   },
   "minecraft:recipes/misc/iron_nugget_from_smelting": {
     "criteria": {
@@ -47,37 +47,19 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/snow": {
-    "criteria": {
-      "has_snowball": "2024-12-09 20:22:20 +0900"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/snow_block": {
     "criteria": {
       "has_snowball": "2024-12-09 20:22:20 +0900"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stone_bricks": {
+  "minecraft:recipes/decorations/snow": {
     "criteria": {
-      "has_stone": "2024-12-09 20:33:28 +0900"
+      "has_snowball": "2024-12-09 20:22:20 +0900"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_stonecutting": {
-    "criteria": {
-      "has_stone": "2024-12-09 20:33:28 +0900"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_stonecutting": {
-    "criteria": {
-      "has_stone": "2024-12-09 20:33:28 +0900"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/stone_slab_from_stone_stonecutting": {
+  "minecraft:recipes/redstone/stone_pressure_plate": {
     "criteria": {
       "has_stone": "2024-12-09 20:33:28 +0900"
     },
@@ -89,13 +71,25 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stone_slab": {
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2024-12-09 20:33:28 +0900"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
+  "minecraft:recipes/building_blocks/stone_stairs": {
+    "criteria": {
+      "has_stone": "2024-12-09 20:33:28 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2024-12-09 20:33:28 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_bricks": {
     "criteria": {
       "has_stone": "2024-12-09 20:33:28 +0900"
     },
@@ -113,13 +107,25 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/stonecutter": {
+  "minecraft:recipes/decorations/stone_brick_walls_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2024-12-09 20:33:28 +0900"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/stone_pressure_plate": {
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
+    "criteria": {
+      "has_stone": "2024-12-09 20:33:28 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_slab": {
+    "criteria": {
+      "has_stone": "2024-12-09 20:33:28 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stonecutter": {
     "criteria": {
       "has_stone": "2024-12-09 20:33:28 +0900"
     },
@@ -131,13 +137,7 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/stone_brick_walls_from_stone_stonecutting": {
-    "criteria": {
-      "has_stone": "2024-12-09 20:33:28 +0900"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/stone_stairs": {
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2024-12-09 20:33:28 +0900"
     },
@@ -149,59 +149,77 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/wind_charge": {
+  "minecraft:recipes/redstone/spruce_button": {
     "criteria": {
-      "has_breeze_rod": "2025-04-10 00:09:26 +0900"
+      "has_planks": "2025-04-09 23:16:52 +0900"
     },
     "done": true
   },
-  "minecraft:nether/obtain_blaze_rod": {
+  "minecraft:recipes/redstone/spruce_pressure_plate": {
     "criteria": {
-      "blaze_rod": "2025-04-10 00:08:52 +0900"
+      "has_planks": "2025-04-09 23:16:52 +0900"
     },
     "done": true
   },
-  "minecraft:adventure/shoot_arrow": {
+  "minecraft:recipes/decorations/spruce_sign": {
     "criteria": {
-      "shot_arrow": "2025-04-10 00:15:50 +0900"
+      "has_planks": "2025-04-09 23:16:52 +0900"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/dispenser": {
+  "minecraft:recipes/redstone/spruce_trapdoor": {
     "criteria": {
-      "has_bow": "2025-04-10 00:14:17 +0900"
+      "has_planks": "2025-04-09 23:16:52 +0900"
     },
     "done": true
   },
-  "minecraft:recipes/brewing/blaze_powder": {
+  "minecraft:recipes/redstone/spruce_door": {
     "criteria": {
-      "has_blaze_rod": "2025-04-10 00:08:52 +0900"
+      "has_planks": "2025-04-09 23:16:52 +0900"
     },
     "done": true
   },
-  "minecraft:adventure/totem_of_undying": {
+  "minecraft:recipes/redstone/spruce_fence_gate": {
     "criteria": {
-      "used_totem": "2025-04-10 00:07:15 +0900"
+      "has_planks": "2025-04-09 23:16:52 +0900"
     },
     "done": true
   },
-  "minecraft:recipes/combat/mace": {
+  "minecraft:recipes/misc/stick": {
     "criteria": {
-      "has_breeze_rod": "2025-04-10 00:09:26 +0900"
+      "has_planks": "2025-04-09 23:16:52 +0900"
     },
     "done": true
   },
-  "minecraft:recipes/brewing/brewing_stand": {
+  "minecraft:recipes/decorations/barrel": {
     "criteria": {
-      "has_blaze_rod": "2025-04-10 00:08:52 +0900"
+      "has_planks": "2025-04-09 23:16:52 +0900"
     },
     "done": true
   },
-  "minecraft:adventure/who_needs_rockets": {
+  "minecraft:recipes/decorations/spruce_fence": {
     "criteria": {
-      "who_needs_rockets": "2025-04-10 00:22:41 +0900"
+      "has_planks": "2025-04-09 23:16:52 +0900"
     },
     "done": true
   },
-  "DataVersion": 4189
+  "minecraft:recipes/building_blocks/spruce_stairs": {
+    "criteria": {
+      "has_planks": "2025-04-09 23:16:52 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_slab": {
+    "criteria": {
+      "has_planks": "2025-04-09 23:16:52 +0900"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2025-04-09 23:22:06 +0900"
+    },
+    "done": true
+  },
+  "DataVersion": 4325
 }
