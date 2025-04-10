@@ -4,7 +4,7 @@ execute as @a[tag=participating,nbt={SelectedItem:{"id":"minecraft:carrot_on_a_s
 
 execute as @a[tag=itemUsed13] run item replace entity @s weapon.mainhand with air
 execute as @a[tag=itemUsed13] as @a at @s run playsound item.goat_horn.sound.2 block @s ~ ~ ~ 2 0.5
-execute as @a[tag=itemUsed13] run tellraw @a {"text":"종말의 뿔피리 소리가 울러 퍼지고 있습니다...","color":"dark_red"}
+execute as @a[tag=itemUsed13] run tellraw @a {text:"종말의 뿔피리 소리가 울러 퍼지고 있습니다...",color:"dark_red"}
 execute as @a[tag=itemUsed13] run effect give @a[tag=!itemUsed13] wither infinite 5 true
 execute as @a[tag=itemUsed13] run effect give @a[tag=!itemUsed13] blindness infinite 5 true
 execute as @a[tag=itemUsed13] run effect give @a[tag=!itemUsed13] slowness infinite 129 true
