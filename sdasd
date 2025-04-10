@@ -1,0 +1,95 @@
+[33mcommit 6798db893bb4e37893eeff9dacabc6ade713e8a1[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: WinterDog <yskim2612@naver.com>
+Date:   Thu Apr 10 15:44:59 2025 +0900
+
+    givejob fixed
+
+[33mcommit 4fbb9c38499d665a144cc3239e2eeb76687f8384[m
+Merge: dbe2569 eb2bda9
+Author: WinterDog <yskim2612@naver.com>
+Date:   Thu Apr 10 15:43:20 2025 +0900
+
+    new
+
+[33mcommit dbe25697a6b324855339949c926ae0deff7419ad[m
+Author: WinterDog <yskim2612@naver.com>
+Date:   Thu Apr 10 15:35:23 2025 +0900
+
+    _givejob fixed
+
+[33mcommit eb2bda9339926d6c7d6fb4088760d184ac28cc57[m
+Author: Jungsiwoo <siwoo5198@gmail.com>
+Date:   Thu Apr 10 15:29:57 2025 +0900
+
+    fixNoWeapon
+    
+    "무능력자가 되." 버그
+    
+    강제로 0 반환하게 해서 해결
+    (아님말고)
+
+[33mcommit f4f2cc3eb272b3d7293f36bc2fb04998bc020ba3[m
+Author: Jungsiwoo <siwoo5198@gmail.com>
+Date:   Thu Apr 10 15:13:03 2025 +0900
+
+    final_fix
+    
+    사실 이게 진짜 -완-
+    17번 빼고.
+
+[33mcommit 8f2aa0ac89911e292aebae868079ff1862f1a647[m
+Author: Jungsiwoo <siwoo5198@gmail.com>
+Date:   Thu Apr 10 15:11:52 2025 +0900
+
+    semifinal_fix
+    
+    모든 무기 다 변경 -완-
+    근데 17번 어딨냐고;
+
+[33mcommit 35490bc43de8bd1a67f19ad97284e56495c94e0a[m
+Author: WinterDog <yskim2612@naver.com>
+Date:   Thu Apr 10 14:15:01 2025 +0900
+
+    5~8 fixed
+
+[33mcommit 8150d99d86f6d6b05e22c7b0658b44360e5aa181[m
+Author: WinterDog <yskim2612@naver.com>
+Date:   Thu Apr 10 13:57:18 2025 +0900
+
+    3,4 fixed
+
+[33mcommit 6d71533adc1fb9125a864eddf66e9d6da11c61da[m
+Author: WinterDog <yskim2612@naver.com>
+Date:   Thu Apr 10 13:34:14 2025 +0900
+
+    item1,2 fixed
+
+[33mcommit 530b409d765f7e2e718afa5b60c2b7513a66e7bc[m
+Author: Jungsiwoo <siwoo5198@gmail.com>
+Date:   Thu Apr 10 12:18:57 2025 +0900
+
+    1.0
+
+[33mcommit b3139f86627fa022c47999e4ba61c367f0264011[m[33m ([m[1;31morigin/doggy[m[33m)[m
+Author: WinterDogg <133509224+WinterDogg@users.noreply.github.com>
+Date:   Thu Apr 10 11:02:35 2025 +0900
+
+    Create README.md
+
+[33mcommit dcbf9d6b2bee1281d587144a324beee7806c9908[m
+Author: Jungsiwoo <siwoo5198@naver.com>
+Date:   Thu Apr 10 03:40:00 2025 +0900
+
+    Update 1_give.mcfunction
+
+[33mcommit a9b9776e34646b5e2130c87c1f117fe2110a99a1[m
+Author: Jungsiwoo <siwoo5198@gmail.com>
+Date:   Thu Apr 10 01:28:43 2025 +0900
+
+    Update randomitemget.mcfunction
+
+[33mcommit e760394cd33c3fec2be9e500b145909ccb8c8d3a[m
+Author: Jungsiwoo <siwoo5198@gmail.com>
+Date:   Thu Apr 10 00:59:59 2025 +0900
+
+    Initial commit
