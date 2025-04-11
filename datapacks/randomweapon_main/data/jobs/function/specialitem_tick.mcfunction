@@ -31,6 +31,8 @@ function jobs:12electric/12_main
 #13
 execute if score timer timerIndicateMode matches 0 as @a[scores={alreadyFactor=10},tag=participating] run function jobs:13doomhorn/13_job_main
 function jobs:13doomhorn/13_main
+#14
+
 
 # 틱에 따른 반복문
 #1 X
@@ -41,7 +43,8 @@ execute if score 3tick specialTick matches 1.. run function jobs:3okarina/3_danc
 execute if score 4tick specialTick matches 1.. run function jobs:4wolfhorn/4_cooldown
 #8
 execute if score 8tick specialTick matches 1.. run function jobs:8camera/8_shutter
-
+#14
+execute if score 14tick specialTick matches 1.. run function jobs:14magicwand/14_main
 
 # 특정 조건에 따른 반복문
 #1 X
